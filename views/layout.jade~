@@ -1,0 +1,16 @@
+doctype
+html
+	head
+		title= title
+		meta(name='description', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src="/socket.io/socket.io.js")
+		script(src="/javascripts/jquery.min.js")
+		script(src="/javascripts/socket.js")
+		script(src="/javascripts/paper.js")
+		script(src="http://cdn.peerjs.com/0.3/peer.min.js")
+		script(src="//api.turnservers.com/api.js?key=yVAxrnRyLslArwFynYncstMizLZDdmZg")
+
+	body(style="padding:0;")
+		block content

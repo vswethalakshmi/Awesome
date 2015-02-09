@@ -1,0 +1,272 @@
+
+  @media only screen and (min-width : 320px) {
+     .enter-message a.send {
+padding: 10px 1% 10px 1% !important;
+
+width: 9% !important;
+}   
+
+.enter-message input {
+width: 81% !important;
+}
+    }
+
+  
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+.enter-message input {
+width: 86% !important;
+}
+     .enter-message a.send {
+padding: 10px 1% 10px 1% !important;
+
+width: 10% !important;
+}  
+    }
+
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.header {
+z-index: 8 !important;
+background: #ef6f70 ;
+color: #fff;
+width: 99.9%;
+top: 0;
+padding: 17px 0px 5px 8px;
+position: absolute;
+}
+canvas{
+	background-color:#fff;
+		z-index:5;
+
+}
+a {
+  color: #DB4436;
+}
+#draw{
+	display:none
+}
+
+*{
+  font-family:'Helvetica Neue',Helvetica, sans-serif;
+  font-size:14px;
+  margin:0;
+}
+a{
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+}
+
+.msg-list{
+	overflow-y:scroll;
+	height:85%;
+	margin-top:45px;
+}
+body{
+	height:100%;
+	width:100%;
+	min-height:100%;
+	overflow:hidden;
+}
+
+.push{
+	z-index:-1;
+}
+.container{
+	
+  width:99.9%;
+  height:100%;
+  bottom:0;
+  position:absolute;	
+  display:block;
+  margin:0 auto;
+  box-shadow:0 2px 5px rgba(0,0,0,0.4);
+}
+
+.header h2{
+  font-size:16px;
+  line-height:15px;
+  display:inline-block;
+}
+.header a{
+  display:inline-block;
+  float:right;
+  background:#DB4436;
+  font-size:25px;
+  line-height:20px;
+ padding: 7px 6px 6px 3px;
+margin-top: -12px;
+margin-right: 10px;
+border-radius: 30px;
+
+}
+
+.chat-box{
+	height:100%;
+	width:100%;
+}
+
+.enter-message{
+	bottom:0;
+	position:absolute;
+width:100%;
+}
+.chat-box, .enter-message{
+  background:#ECECEC;
+  padding: 0 4px;
+
+  color:#a1a1a1;
+}
+.chat-box .message-box{
+  padding:18px 0 10px;
+  clear:both;
+	width:99%;
+}
+.message-box .picture{
+  float:left;
+  width:50px;
+  display:block;
+  padding-right:10px;
+}
+.picture img{
+  width:43px;
+  height:48px;
+  border-radius:5px;
+}
+.picture span{
+  font-weight:bold;
+  font-size:12px;
+  clear:both;
+  display:block;
+  text-align:center;
+  margin-top:3px;
+}
+.message {
+background: #fff;
+display: inline-block;
+padding: 13px;
+width: 75%;
+border-radius: 10px;
+box-shadow: 0 1px 1px rgba(0,0,0,.04);
+position: relative;
+}
+.message:before{
+  content:"";
+  position:absolute;
+  display:block;
+  left:0;
+  border-right:6px solid #fff;
+  border-top: 6px solid transparent;
+  border-bottom:6px solid transparent;
+  top:10px;
+  margin-left:-6px;
+}
+.message span{
+  color:#555;
+  font-weight:bold;
+}
+.message p{
+  padding-top:5px;
+}
+.message-box.right-img .picture{
+  float:right;
+  padding:0;
+  padding-left:10px;
+}
+.message-box.right-img .picture img{
+  float:right;
+}
+.message-box.right-img .message:before{
+  left:100%;
+  margin-right:6px;
+  margin-left:0;
+  border-right:6px solid transparent;
+  border-left:6px solid #fff;
+  border-top: 6px solid transparent;
+  border-bottom:6px solid transparent;
+}
+.enter-message{
+  padding:13px 0px;
+}
+.enter-message input {
+border: none;
+padding: 10px 12px;
+background: #d3d3d3;
+width: 89%;
+border-radius: 2px;
+display: inline;
+}
+
+.enter-message a.send {
+padding: 10px 15px;
+background: #6294c2;
+border-radius: 2px;
+float: right;
+width: 5%;
+text-align:center;
+}
+#their-video {
+width: 300px !important;
+border-radius: 300px;
+height: 300px !important;
+
+margin-top: 15px;
+background-color: #eee;
+}
+#my-video {
+margin-top: 15px;
+width: 106px !important;
+border-radius: 93px;
+height: 106px !important;
+}
+.video-call{
+	margin-top: 40px;
+}
+.pure-button-success,
+.pure-button-error,
+.pure-button-warning,
+.pure-button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.pure-button-success {
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.pure-button-error {
+  background: rgb(202, 60, 60); /* this is a maroon */
+}
+.pure-button-warning {
+  background: rgb(223, 117, 20); /* this is an orange */
+}
+.pure-button-secondary {
+  background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+
+
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+
+
+#video-container {
+  padding: 25px;
+  text-align: center;
+}
+
+#step1-error, #step2, #step3 {
+  display: none;
+}
+#my-id {
+  font-weight: bold;
+}
+
+
