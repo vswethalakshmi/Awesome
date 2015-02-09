@@ -171,7 +171,7 @@ $(document).ready(function(){
     // PeerJS object
     
 var peer = new Peer(prompt("enter id"),{ key: 'o6ohvz49meyd5cdi', debug: 3, config: {'iceServers': [
-   { url: 'turn:bluekiss@bluekiss.ddns.net:3478', credential: 'foobar' },{
+   {
     url: 'stun:23.21.150.121'
 }, {
     url: 'stun:stun.l.google.com:19302'
