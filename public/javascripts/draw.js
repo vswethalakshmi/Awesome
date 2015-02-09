@@ -3,7 +3,7 @@ $('body').append(' <div class="header">    <h2>Awesomeness!</h2>  <a href="#" id
 '  <div class="video-call pure-u-1-3" style="display: block;">                              <!-- Make calls to others -->      <div id="step2" style="margin-top:60px;">          <p>Your id: <span id="my-id">vx8ozqxor0pmn29</span></p>          <p>Share this id with others so they can call you.</p>          <h3>Make a call</h3>          <div class="pure-form">            <input type="text" placeholder="Call user id..." id="callto-id">            <a class="pure-button pure-button-success" id="make-call">Call</a>          </div>        </div>        <!-- Call in progress -->        <div id="step3">          <p>Currently in call with <span id="their-id">...</span></p>          <p><a class="pure-button pure-button-error" id="end-call">End call</a></p>        </div>      </div><div class="pure-g">      <!-- Video area -->      <div class="pure-u-2-3 video-call" id="video-container">        <video id="their-video" autoplay=""></video>        <video id="my-video" muted="true" autoplay=""></video>      </div>      ');
 
 $('#board').click(function(){
-	if($("#draw").css('display') == 'inline-block'){
+	if($("#draw").css('display') == 'inline'){
      $('.container').show();  
 $(".video-call").hide();  
 $("#draw").hide();   
